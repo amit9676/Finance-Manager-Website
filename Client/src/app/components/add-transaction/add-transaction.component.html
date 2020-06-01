@@ -1,0 +1,54 @@
+<p style="font-size: 50px; ">Add Transaction</p>
+<div>
+
+    <form #formInfo='ngForm'>
+
+        <span>Enter Type of Action</span>
+        <br>
+        <select required  id='act' (click)='setTypeOfAction()'  name='action' >
+            <option value="Income" selected>Income</option>
+            <option  value="Expense">Expense</option>
+        </select>
+
+        <br><br>
+        
+        <span>Enter Date</span>
+        <br>
+        <input #dateInfo='ngModel' required type="date" name="datetime" placeholder="date" (input)='datelocker()' (input)='theDate(givenDate)' 
+        [(ngModel)]='givenDate' [(ngModel)]='financeActivities.date'>
+        
+        <br>
+        <span *ngIf='future'>this date is in the future!</span>
+        <span *ngIf='dateInfo?.invalid && dateInfo.touched'>missing date</span>
+        <br><br>
+        
+        <span>Enter Value</span>
+        <br>
+        <input #priceInfo='ngModel' required type='number' placeholder="value" name='value' min='1' (input)='negativePrice()' [(ngModel)]='financeActivities.value'>
+        <br>
+        <span *ngIf='priceInfo?.invalid && priceInfo.touched'>missing price</span>
+        <span *ngIf='negativePrice() && !priceInfo?.invalid'>price can not be 0 or negative</span>
+        <br><br>
+
+        <span>Enter description (optional)</span>
+        <br>
+        <textarea cols='25' rows='5' #descriptionInfo='ngModel' type='text' placeholder="description" name='description' [(ngModel)]='financeActivities.description'></textarea>
+
+        <br><br>
+
+        <span *ngIf='setTypeOfAction()'>Enter Type of Expense</span>
+        <br>
+        <select required *ngIf='setTypeOfAction()' id='exp'  name='expense' (click)='typeofExpense()'>
+            <option value="Regular" selected>Regular</option>
+            <option  value="Vatless">Vatless</option>
+            <option  value="Car">Car</option>
+            <option  value="Phone">Phone</option>
+            <option  value="Refreshments">Refreshments</option>
+        </select>
+        
+    </form>
+        
+        
+    <button [disabled]='formInfo.form.invalid || future || !datelock || negativePrice()' (click)='addAction()'>add</button>
+    <button routerLink="/home">return to transactions list</button>
+</div>

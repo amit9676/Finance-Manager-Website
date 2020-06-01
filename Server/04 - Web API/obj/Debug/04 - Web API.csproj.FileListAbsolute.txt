@@ -1,0 +1,82 @@
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\04 - Web API.dll.config
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\04 - Web API.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\04 - Web API.pdb
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\csc.exe
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\csc.exe.config
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\csc.rsp
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\csi.exe
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\csi.exe.config
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\csi.rsp
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.Managed.Core.targets
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.AppContext.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Collections.Immutable.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Console.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Globalization.Calendars.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.IO.Compression.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.IO.FileSystem.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Net.Http.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Net.Sockets.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Reflection.Metadata.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.ValueTuple.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Xml.XmlDocument.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Xml.XPath.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\vbc.exe
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\vbc.exe.config
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\vbc.rsp
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\VBCSCompiler.exe
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\roslyn\VBCSCompiler.exe.config
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\01 - Data Access Layer.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\02 - Data Transfer Object.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\03 - Business Logic Layer.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\EntityFramework.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\EntityFramework.SqlServer.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\Newtonsoft.Json.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Net.Http.Formatting.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Web.Cors.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Web.Http.Cors.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Web.Http.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Web.Http.WebHost.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\01 - Data Access Layer.pdb
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\01 - Data Access Layer.dll.config
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\02 - Data Transfer Object.pdb
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\03 - Business Logic Layer.pdb
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\03 - Business Logic Layer.dll.config
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\EntityFramework.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\EntityFramework.SqlServer.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\Newtonsoft.Json.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Net.Http.Formatting.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Web.Http.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Web.Http.Cors.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\bin\System.Web.Http.WebHost.xml
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\obj\Debug\04 - Web API.csprojAssemblyReference.cache
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\obj\Debug\04 - Web API.csproj.CoreCompileInputs.cache
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\obj\Debug\04 - Web API.csproj.CopyComplete
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\obj\Debug\04 - Web API.dll
+E:\visualstudio\TransActionsFullstack\Server\04 - Web API\obj\Debug\04 - Web API.pdb

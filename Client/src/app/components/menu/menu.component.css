@@ -1,0 +1,24 @@
+div
+{
+    height: 100%;
+}
+
+a
+{
+    padding: 0;
+    display:block;
+    color: blue;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 23px;
+
+
+}
+
+.active
+{
+    color: magenta;
+    font-weight: bold;
+    text-decoration: none;
+}

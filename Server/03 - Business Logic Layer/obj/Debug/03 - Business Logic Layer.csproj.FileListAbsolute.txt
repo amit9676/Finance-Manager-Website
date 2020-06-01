@@ -1,0 +1,17 @@
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll.config
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.dll
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\03 - Business Logic Layer.pdb
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Object.dll
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\EntityFramework.dll
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.dll
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.pdb
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\01 - Data Access Layer.dll.config
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\02 - Data Transfer Object.pdb
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\EntityFramework.xml
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\bin\Debug\EntityFramework.SqlServer.xml
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csprojAssemblyReference.cache
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CoreCompileInputs.cache
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.csproj.CopyComplete
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.dll
+E:\visualstudio\TransActionsFullstack\Server\03 - Business Logic Layer\obj\Debug\03 - Business Logic Layer.pdb

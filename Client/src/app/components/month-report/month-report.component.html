@@ -1,0 +1,20 @@
+<img id='ima' *ngIf='givenyr && !allActivites && !errorPage' src='/assets/images/loading2.gif'>
+
+<div id='outerdiv'>
+    <p> enter month: <input (input)='dateChecker()' (input)='publicgetMontlyReport()' [(ngModel)]='givenmnt' id='mnt' type='number' min='1' max='12'>  enter year: <input (input)='dateChecker()' (input)='publicgetMontlyReport()' [(ngModel)]='givenyr' id='yr' value='1' type='number' min='1' max='{{presentYear}}'></p>
+    <br><br>
+    <div *ngIf='allActivites?.length > 0 && givenmnt && givenyr'>
+    <p>The total amount of incomes with vat is: {{totalIncome | number : '0.0-2'}}</p>
+    <p>The total amount of incomes without vat is: {{vatlessIncome | number : '0.0-2'}}</p>
+    <p>The total amount of expenses with vat is: {{totalExpense | number : '0.0-2'}}</p>
+    <p>The total amount of expenses without vat is: {{vatlessExpense | number : '0.0-2'}}</p>
+    <p>The gross profit is: {{grossProfit | number : '0.0-2'}}</p>
+    <p>The vat needed to pay is: {{vatToPay | number : '0.0-2'}}</p>
+    <p>The taxes needed to pay is: {{taxes | number : '0.0-2'}}</p>
+    <p>The national Insurances needed to pay is: {{natInsurance | number : '0.0-2'}}</p>
+    <p>The total loses from the gross profit is: {{totalLoses | number : '0.0-2'}}</p>
+    <p>The net profit is: {{netProfit | number : '0.0-2'}}</p>
+    </div>
+    <p  *ngIf='allActivites?.length == 0 && givenmnt && givenyr'>no data available</p>
+    <p *ngIf='!givenyr || !givenmnt'>please enter month and year</p>
+</div>

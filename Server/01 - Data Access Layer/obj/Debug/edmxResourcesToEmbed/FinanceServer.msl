@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FinanceActivitiesModelStoreContainer" CdmEntityContainer="FinanceActivitiesEntities">
+    <EntitySetMapping Name="TransActions">
+      <EntityTypeMapping TypeName="FinanceActivitiesModel.TransAction">
+        <MappingFragment StoreEntitySet="TransActions">
+          <ScalarProperty Name="ActivityID" ColumnName="ActivityID" />
+          <ScalarProperty Name="Activity_Type" ColumnName="Activity Type" />
+          <ScalarProperty Name="Date_of_Activity" ColumnName="Date of Activity" />
+          <ScalarProperty Name="Value_of_Activity" ColumnName="Value of Activity" />
+          <ScalarProperty Name="Description_of_Activity" ColumnName="Description of Activity" />
+          <ScalarProperty Name="Type_Of_Expense" ColumnName="Type Of Expense" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,71 @@
+<img id='ima' *ngIf='!allActivites && !errorPage' src='/assets/images/loading2.gif'>
+<select id='srt' (click)='activitiesFilter()' class='sort'>
+    <option value='All' class='sort'>Sort by: All</option>
+    <option value='Income' class='sort'>Incomes</option>
+    <option value='Expense' class='sort'>Expenses</option>
+    <option value='Date' class='sort'>Date</option>
+</select>
+<span *ngIf='dateSort'> enter month: <input [(ngModel)]='givenmnt' id='mnt' type='number' min='1' max='12'>  enter year: <input [(ngModel)]='givenyr' id='yr' value='1' type='number' min='1' max='{{presentYear}}'></span>
+
+<div  id='maindiv' *ngIf='allActivites'>
+    <table>
+        <th>id:</th>
+        <th>type of action:</th>
+        <th>date:</th>
+        <th>value:</th>
+        <th>description:</th>
+        <th>type of expense:</th>
+        <th>options:</th>
+        <tr *ngFor='let item of activitiesFilter()'>
+            <td>{{item.id}}</td>
+            <td><p *ngIf='!editMode[item.id]'>{{item.typeOfAction}}</p>
+                <select [(ngModel)]='givenAction' (click)='changeAction()' *ngIf='editMode[item.id]'>
+                    <option value="Income">Income</option>
+                    <option value="Expense" >Expense</option>
+                </select>
+            </td>
+
+            <td>
+                <p *ngIf='!editMode[item.id]'>{{item.date | date:'dd.MM.yyyy'}}</p>
+                <div *ngIf='editMode[item.id]' style='position: relative;'>
+                    <input id='theDate' (input)='setDate()' type='date' value='{{years[item.id - 1]}}-{{months[item.id - 1]}}-{{days[item.id - 1]}}' *ngIf='editMode[item.id]'>
+                    <div><p style="font-size: 14px; position: absolute; left:0; right:0; top:22px;" *ngIf='future && editMode[item.id]'>this date is in the future!</p>
+                        <p style="font-size: 14px; position: absolute; left:0; right:0; top:22px;" *ngIf='!validatedDate'>missing date</p></div></div>
+            </td>
+
+            <td><p *ngIf='!editMode[item.id]'>{{item.value}}</p>
+                <div *ngIf='editMode[item.id]' style='position: relative;'>
+                    <input #valueInfo='ngModel' [(ngModel)]='givenValue' [value]="givenValue" type='number' min='1' *ngIf='editMode[item.id]'>
+                    <div>
+                        <p style="font-size: 14px; position: absolute; left:0; right:0; top:18px;" *ngIf='!givenValue && givenValue !== 0'>missing value</p>
+                    <p style="font-size: 10px; position: absolute; left:0; right:0; top:20px;" *ngIf='negativePrice() && givenValue !== null'>price can not be 0 or negative</p>
+                    </div>
+                </div>
+            </td>
+
+            <td><p  *ngIf='!editMode[item.id]'>{{item.description}}</p>
+                <textarea [value]='givenDescription' [(ngModel)]='givenDescription' cols='14' rows='4' *ngIf='editMode[item.id]' ></textarea></td>
+
+            <td><p *ngIf='!editMode[item.id]'>{{item.typeOfExpense}}</p>
+                <select [(ngModel)]='givenExpense' *ngIf='editMode[item.id] && givenExpense'>
+                    <option value='Regular'>Regular</option>
+                    <option value='Vatless'>Vatless</option>
+                    <option value='Car'>Car</option>
+                    <option value='Phone'>Phone</option>
+                    <option value='Refreshments'>Refreshments</option>
+                </select>
+            </td>
+
+            <td><button  *ngIf='!editMode[item.id]' (click)='convertToInput(item)'>edit</button>
+                <button [disabled]='!givenValue || !validatedDate || future || negativePrice()' *ngIf='editMode[item.id]' (click)='saveChanges(item.id, item)'>save</button>
+                <button (click)='deleteAction(item.id)'>delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<button *ngIf='allActivites' routerLink="/add-transaction" style="font-size: 25px;">
+    add transaction
+</button>
+
+<p *ngIf='errorPage'>error, data is unavailable. please check your connection.</p>

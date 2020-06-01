@@ -1,0 +1,6 @@
+E:\visualstudio\TransActionsFullstack\Server\02 - Data Transfer Object\bin\Debug\02 - Data Transfer Object.dll
+E:\visualstudio\TransActionsFullstack\Server\02 - Data Transfer Object\bin\Debug\02 - Data Transfer Object.pdb
+E:\visualstudio\TransActionsFullstack\Server\02 - Data Transfer Object\obj\Debug\02 - Data Transfer Object.csproj.CoreCompileInputs.cache
+E:\visualstudio\TransActionsFullstack\Server\02 - Data Transfer Object\obj\Debug\02 - Data Transfer Object.dll
+E:\visualstudio\TransActionsFullstack\Server\02 - Data Transfer Object\obj\Debug\02 - Data Transfer Object.pdb
+E:\visualstudio\TransActionsFullstack\Server\02 - Data Transfer Object\obj\Debug\02 - Data Transfer Object.csprojAssemblyReference.cache

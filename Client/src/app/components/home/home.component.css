@@ -1,0 +1,75 @@
+#ima
+{
+    margin:auto;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+}
+#maindiv{
+    margin-top:10px;
+    margin-bottom: 4px;
+    height: 85%;
+    overflow: auto;
+}
+
+.sort{
+    margin-top:10px;
+    width: 250px;
+    height: 25px;
+}
+
+table
+{
+    margin:auto;
+    height: 520px;
+}
+
+th{
+    height: 50px;
+    background-color: rgb(243, 184, 161);
+    
+}
+
+th:nth-child(1){
+    width: 50px;
+}
+
+th:nth-child(3){
+    width: 200px;
+}
+table, th, td
+{
+    border: 1px solid orangered;
+}
+
+tr:nth-child(even)
+{
+    background-color: brown;
+}
+
+tr:nth-child(odd)
+{
+    background-color: rgb(221, 134, 134);
+}
+
+th, td
+{
+    font-size: 25px;
+}
+
+button{
+    margin: 2px;
+}
+
+input[type=number]{
+    width: 80px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+select, option{
+    width: 120px;
+}

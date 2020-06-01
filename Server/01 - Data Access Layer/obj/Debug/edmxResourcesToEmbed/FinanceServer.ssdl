@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FinanceActivitiesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TransActions">
+    <Key>
+      <PropertyRef Name="ActivityID" />
+    </Key>
+    <Property Name="ActivityID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Activity Type" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Date of Activity" Type="date" Nullable="false" />
+    <Property Name="Value of Activity" Type="money" Nullable="false" />
+    <Property Name="Description of Activity" Type="nvarchar" MaxLength="100" />
+    <Property Name="Type Of Expense" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityContainer Name="FinanceActivitiesModelStoreContainer">
+    <EntitySet Name="TransActions" EntityType="Self.TransActions" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
